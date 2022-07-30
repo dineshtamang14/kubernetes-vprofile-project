@@ -20,7 +20,6 @@ spec:
           ports:
             - name: vpromq01-port
               containerPort: 15672
-              protocol: TCP
           env:
             - name: RABBITMQ_DEFAULT_PASS
               valueFrom:
